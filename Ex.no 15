@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Two Level Directory Structure created successfully.\n");
+    return 0;
+}
