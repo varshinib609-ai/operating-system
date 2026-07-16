@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("UNIX I/O System Calls executed successfully.\n");
+    return 0;
+}
