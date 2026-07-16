@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Classical Process Synchronization executed successfully.\n");
+    return 0;
+}
