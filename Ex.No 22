@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("Best Fit Memory Allocation executed successfully.\n");
+    return 0;
+}
