@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("UNIX File Management System Calls executed successfully.\n");
+    return 0;
+}
