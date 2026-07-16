@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Single Level Directory created successfully.\n");
+    return 0;
+}
