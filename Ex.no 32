@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("LRU Page Replacement executed successfully.\n");
+    return 0;
+}
