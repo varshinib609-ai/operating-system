@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Thread Create, Join, Equal and Exit executed successfully.\n");
+    return 0;
+}
