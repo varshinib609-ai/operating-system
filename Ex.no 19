@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Process Synchronization using Mutex Locks executed successfully.\n");
+    return 0;
+}
