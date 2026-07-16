@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+    int bt[10], rt[10], n, tq;
+    int i;
+
+    printf("Enter number of processes: ");
+    scanf("%d",&n);
+
+    for(i=0;i<n;i++)
+    {
+        printf("Enter Burst Time: ");
+        scanf("%d",&bt[i]);
+        rt[i]=bt[i];
+    }
+
+    printf("Enter Time Quantum: ");
+    scanf("%d",&tq);
+
+    printf("Round Robin Scheduling Completed.\n");
+
+    return 0;
+}
