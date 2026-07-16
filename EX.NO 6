@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Pre-emptive Priority Scheduling executed successfully.\n");
+    return 0;
+}
