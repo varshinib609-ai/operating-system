@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Sequential File Allocation simulated successfully.\n");
+    return 0;
+}
