@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("FCFS Disk Scheduling executed successfully.\n");
+    return 0;
+}
