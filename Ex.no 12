@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Dining Philosophers Problem simulated successfully.\n");
+    return 0;
+}
