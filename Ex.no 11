@@ -1,7 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<pthread.h>
+
+void *fun(void *arg)
+{
+    printf("Thread Running\n");
+    return NULL;
+}
 
 int main()
 {
-    printf("Multithreading executed successfully.\n");
+    pthread_t t;
+
+    pthread_create(&t,NULL,fun,NULL);
+    pthread_join(t,NULL);
+
     return 0;
 }
