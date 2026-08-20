@@ -1,7 +1,24 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<pthread.h>
+
+pthread_mutex_t lock;
+
+void *fun(void *arg)
+{
+    pthread_mutex_lock(&lock);
+    printf("Critical Section\n");
+    pthread_mutex_unlock(&lock);
+    return NULL;
+}
 
 int main()
 {
-    printf("Process Synchronization using Mutex Locks executed successfully.\n");
+    pthread_t t;
+
+    pthread_mutex_init(&lock,NULL);
+    pthread_create(&t,NULL,fun,NULL);
+    pthread_join(t,NULL);
+    pthread_mutex_destroy(&lock);
+
     return 0;
 }
