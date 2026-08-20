@@ -1,7 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-    printf("Two Level Directory Structure created successfully.\n");
+    char user[20],file[20];
+
+    printf("Enter User Name: ");
+    scanf("%s",user);
+
+    printf("Enter File Name: ");
+    scanf("%s",file);
+
+    printf("\n%s/%s\n",user,file);
+
     return 0;
 }
